@@ -8,14 +8,50 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Outfit", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
   background-color: #d5e1ef;
+  color: #7d889e;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+h1 {
+  font-size: 21px;
+  font-weight: 700;
+}
+
+.main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container {
-  display: flex;
-  flex-direction: column;
   width: 90%;
-  max-width: 320px;
   margin: 0 auto;
+}
+
+.card {
+  border-radius: 1rem;
+  padding: 16px;
   background-color: #ffffff;
+  max-width: 320px;
+}
+
+.image {
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 24px;
+}
+
+.content {
+  text-align: center;
+}
+.content__heading {
+  color: #1f314f;
 }

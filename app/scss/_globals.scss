@@ -8,14 +8,40 @@ body {
     margin: 0;
     padding: 0;
     font-family: "Outfit", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
     background-color: $lightGrey;
+    color: $grey;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+h1 {
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container {
-    display: flex;
-    flex-direction: column;
+    // border: 5px solid teal;
     width: 90%;
-    max-width: 320px;
     margin: 0 auto;
+}
+
+.card {
+    // border: 1px solid black;
+    // border-radius: 16px;
+    border-radius: 1rem;
+    padding: 16px;
     background-color: $white;
+    max-width: 320px;
 }
