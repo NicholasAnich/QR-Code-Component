@@ -20,8 +20,9 @@ img {
 }
 
 h1 {
-  font-size: 21px;
+  font-size: 22px;
   font-weight: 700;
+  line-height: 28px;
 }
 
 .main {
@@ -37,10 +38,12 @@ h1 {
 }
 
 .card {
-  border-radius: 1rem;
+  border-radius: 20px;
   padding: 16px;
   background-color: #ffffff;
-  max-width: 320px;
+  width: 320px;
+  height: 497px;
+  box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.0476518);
 }
 
 .image {
@@ -50,8 +53,16 @@ h1 {
 }
 
 .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
 }
 .content__heading {
+  margin: 0;
   color: #1f314f;
+}
+.content__body {
+  line-height: 18.9px;
+  max-width: 256px;
 }

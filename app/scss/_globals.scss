@@ -20,8 +20,9 @@ img {
 }
 
 h1 {
-    font-size: 21px;
+    font-size: 22px;
     font-weight: 700;
+    line-height: 28px;
 }
 
 .main {
@@ -32,16 +33,15 @@ h1 {
 }
 
 .container {
-    // border: 5px solid teal;
     width: 90%;
     margin: 0 auto;
 }
 
 .card {
-    // border: 1px solid black;
-    // border-radius: 16px;
-    border-radius: 1rem;
+    border-radius: 20px;
     padding: 16px;
     background-color: $white;
-    max-width: 320px;
+    width: 320px;
+    height: 497px;
+    box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.0476518);
 }
